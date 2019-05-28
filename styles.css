@@ -1,11 +1,17 @@
 .pageHeader {
     display: flex;
     justify-content: center;
+    height: 50px;
+    
 }
+
 .list {
     display: flex;
-    flex-direction: row;
     flex-wrap: wrap;
-    justify-content: space-around;
-    
+    flex-direction:row;
+}
+.shop {
+  min-width: 400px;
+  height: 25px;
+  flex-grow: 2;  
 }
